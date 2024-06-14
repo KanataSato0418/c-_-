@@ -17,7 +17,7 @@ void CircleClass::Input()
 //‰~‚Ì–ÊÏ‚ğŒvZ‚·‚éŠÖ”
 void CircleClass::Calc()
 {
-	area = r * r 3.14f;
+	area = r * r * 3.14f;
 }
 
 //‰~‚Ì–ÊÏ‚ğo—Í‚·‚éŠÖ”
