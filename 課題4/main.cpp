@@ -9,3 +9,10 @@ int main()
 	s.Input2();
 	s.Disp();
 }
+
+
+/*
+—\‘z@‚R‚O
+
+Œ‹‰Ê@‚P‚O
+*/

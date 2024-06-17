@@ -2,17 +2,13 @@
 #include <iostream>
 #include "Data.h"
 
-//メイン関数
-int main() {
-	//変数iに適当な値を代入させる
-	int i;
-	std::cin >> i;
+//渡された値をメンバ変数に代入する関数(アクセス関数)
+void Data::SetValue(int a) {
+	value = a;
+}
 
-	//Dataクラスのインスタンスを作る
-	Data x;
-
-	//メンバ関数を呼び出す
-	x.SetValue(i); //変数iの値を渡す(アクセス関数)
-	x.Disp(); //表示する
-
+//メンバ変数に内容を出力するメンバ関数
+void Data::Disp()
+{
+	std::cout << "メンバ変数の値は" << value << "\n";
 }
