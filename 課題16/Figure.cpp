@@ -10,5 +10,5 @@ void Figure::SetTakasa() {
 }
 
 void Figure::Disp() {
-	std::cout << "–ÊÏ‚Í" + menseki;
+	std::cout << "–ÊÏ‚Í" << menseki;
 }
