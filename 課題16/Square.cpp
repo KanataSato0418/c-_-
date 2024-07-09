@@ -3,5 +3,5 @@
 
 void Square::Calc()
 {
-	teihen* takasa = menseki;
+	menseki = takasa * teihen;
 }

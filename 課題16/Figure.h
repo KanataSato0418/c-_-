@@ -1,9 +1,8 @@
-#include <iostream>
-
+#pragma once
 //Šî–{‚Æ‚È‚éƒNƒ‰ƒX
 class Figure
 {
-public:
+protected:
 	float teihen, takasa, menseki;
 public:
 	void SetTeihen(float f);

@@ -3,5 +3,5 @@
 
 void Triangle :: Calc()
 {
-	teihen * takasa / 2 = menseki;
+	menseki = teihen * takasa / 2;
 }

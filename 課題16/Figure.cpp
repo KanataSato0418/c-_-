@@ -1,12 +1,12 @@
 #include<iostream>
 #include "Figure.h"
 
-void Figure::SetTeihen() {
-	teihen = 10.0f;
+void Figure::SetTeihen(float f) {
+	teihen = f;
 }
 
-void Figure::SetTakasa() {
-	takasa = 5.5f;
+void Figure::SetTakasa(float f) {
+	takasa = f;
 }
 
 void Figure::Disp() {
